@@ -24,7 +24,8 @@ require'fzf-lua'.setup({
 require('github-theme').setup({
   transparent = true,
   comment_style	= 'NONE',
-  function_style = 'NONE'
+  function_style = 'NONE',
+  keyword_style = 'NONE',
 })
 vim.opt.termguicolors = true
 vim.cmd 'autocmd ColorScheme * highlight Normal ctermbg=none guibg=none'
@@ -92,11 +93,17 @@ require("indent_blankline").setup {
 }
 
 require('nvim-treesitter.configs').setup {
+  highlight = {
+    enable = true,
+  },
   endwise = {
     enable = true,
   },
   ensure_installed = {
     'ruby',
+    'elixir',
+    'lua',
+    'vim',
     'go',
     'rust',
     'typescript'
