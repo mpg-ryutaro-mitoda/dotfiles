@@ -1,0 +1,26 @@
+add_newline = false
+
+[docker_context]
+format = "via [ $context](blue bold)"
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+
+[package]
+disabled = true
+
+[ruby]
+format = "| ruby [$version ]($style)"
+
+[python]
+format = "| python [$version ]($style)"
+
+[nodejs]
+format = "| node [$version ]($style)"
+
+[golang]
+format = "| golang [$version ]($style)"
+
+[lua]
+format = "| lua [$version ]($style)"
