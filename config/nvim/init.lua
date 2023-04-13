@@ -20,13 +20,12 @@ require'fzf-lua'.setup({
   },
 })
 
--- colorscheme init --
--- require('github-theme').setup({
--- transparent = true,
--- comment_style	= 'NONE',
--- function_style = 'NONE'
--- })
-vim.cmd[[colorscheme sequoia]]
+-- -- colorscheme init --
+require('github-theme').setup({
+  transparent = true,
+  comment_style	= 'NONE',
+  function_style = 'NONE'
+})
 vim.opt.termguicolors = true
 vim.cmd 'autocmd ColorScheme * highlight Normal ctermbg=none guibg=none'
 vim.cmd 'autocmd ColorScheme * highlight NonText ctermbg=none guibg=none'
