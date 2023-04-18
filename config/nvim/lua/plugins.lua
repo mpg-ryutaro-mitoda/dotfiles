@@ -34,6 +34,7 @@ require'packer'.startup(function()
   use { 'petertriho/nvim-scrollbar' }
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
   use { 'projekt0n/github-nvim-theme', tag = 'v0.0.7' }
+  use 'Hiroya-W/sequoia-moonlight.nvim'
   use { 'junegunn/fzf', run = ":call fzf#install()" }
   use { 'junegunn/fzf.vim' }
   use {'neoclide/coc.nvim', branch = 'release'}
