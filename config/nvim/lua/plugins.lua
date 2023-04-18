@@ -30,7 +30,7 @@ require'packer'.startup(function()
   use 'lambdalisue/fern-git-status.vim'
   use 'norcalli/nvim-colorizer.lua'
   use 'lukas-reineke/indent-blankline.nvim'
-  use 'nvim-treesitter/nvim-treesitter'
+  use { 'nvim-treesitter/nvim-treesitter' }
   use { 'petertriho/nvim-scrollbar' }
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
   use { 'projekt0n/github-nvim-theme', tag = 'v0.0.7' }
