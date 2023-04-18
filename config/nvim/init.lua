@@ -22,6 +22,8 @@ require'fzf-lua'.setup({
 
 -- treesitter init --
 require('nvim-treesitter.configs').setup {
+  sync_install = true,
+  auto_install = true,
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false,
@@ -37,7 +39,10 @@ require('nvim-treesitter.configs').setup {
     'go',
     'rust',
     'typescript'
-  }
+  },
+  indent = {
+    enable = true,
+  },
 }
 
 -- -- colorscheme init --
@@ -48,8 +53,8 @@ require('nvim-treesitter.configs').setup {
   -- keyword_style = 'NONE',
 -- })
 
-vim.cmd[[colorscheme sequoia]]
 vim.opt.termguicolors = true
+vim.cmd 'colorscheme iceberg'
 vim.cmd 'autocmd ColorScheme * highlight Normal ctermbg=none guibg=none'
 vim.cmd 'autocmd ColorScheme * highlight NonText ctermbg=none guibg=none'
 vim.cmd 'autocmd ColorScheme * highlight LineNr ctermbg=none guibg=none'
