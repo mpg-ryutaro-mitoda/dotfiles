@@ -45,16 +45,15 @@ require('nvim-treesitter.configs').setup {
   },
 }
 
--- -- colorscheme init --
--- require('github-theme').setup({
-  -- transparent = true,
-  -- comment_style	= 'NONE',
-  -- function_style = 'NONE',
-  -- keyword_style = 'NONE',
--- })
+-- colorscheme init --
+require('github-theme').setup({
+  transparent = true,
+  comment_style	= 'NONE',
+  function_style = 'NONE',
+  keyword_style = 'NONE',
+})
 
 vim.opt.termguicolors = true
-vim.cmd 'colorscheme iceberg'
 vim.cmd 'autocmd ColorScheme * highlight Normal ctermbg=none guibg=none'
 vim.cmd 'autocmd ColorScheme * highlight NonText ctermbg=none guibg=none'
 vim.cmd 'autocmd ColorScheme * highlight LineNr ctermbg=none guibg=none'

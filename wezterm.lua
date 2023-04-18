@@ -7,8 +7,8 @@ return {
   use_ime = true,
   default_cursor_style = 'SteadyUnderline',
   underline_thickness = 0.2,
-  color_scheme = 'iceberg-dark',
-  window_background_opacity = 0.95,
+  color_scheme = 'Sequoia Monochrome',
+  window_background_opacity = 0.90,
   leader = { key = '1', mods = 'CTRL', timeout_milliseconds = 2000 },
   keys = {
     {
