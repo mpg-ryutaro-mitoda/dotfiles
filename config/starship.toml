@@ -24,3 +24,6 @@ format = "| golang [$version ]($style)"
 
 [lua]
 format = "| lua [$version ]($style)"
+
+[terraform]
+format = "| terraform [$version ]($style)"

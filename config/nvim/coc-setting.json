@@ -27,5 +27,19 @@
         "javascriptreact",
         "typescript",
         "typescriptreact"
-    ]
+    ],
+  {
+	"languageserver": {
+		"terraform": {
+			"command": "terraform-ls",
+			"args": ["serve"],
+			"filetypes": [
+				"terraform",
+				"tf"
+			],
+			"initializationOptions": {},
+			"settings": {}
+		}
+	}
 }
+ }
