@@ -10,6 +10,9 @@ truncate_to_repo = false
 [package]
 disabled = true
 
+[time]
+disabled = false
+
 [ruby]
 format = "| ruby [$version ]($style)"
 
