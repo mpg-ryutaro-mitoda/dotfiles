@@ -25,6 +25,8 @@ require'packer'.startup(function()
       })
     end
   }
+  use 'posva/vim-vue'
+  use 'tpope/vim-rails'
   use 'ibhagwan/fzf-lua'
   use 'lambdalisue/fern.vim'
   use 'lambdalisue/fern-git-status.vim'
