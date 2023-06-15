@@ -30,15 +30,11 @@
   ],
   "languageserver": {
     "terraform": {
-      "command": "terraform-ls",
-      "args": ["serve"],
+      "command": "terraform-lsp",
       "trace.server": "verbose",
       "filetypes": [
-        "terraform",
-        "tf"
+        "terraform"
       ],
-      "initializationOptions": {},
-      "settings": {}
     }
   }
 }
