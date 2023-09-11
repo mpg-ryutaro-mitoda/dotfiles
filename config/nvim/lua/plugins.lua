@@ -40,4 +40,5 @@ require'packer'.startup(function()
   use { 'junegunn/fzf.vim' }
   use {'neoclide/coc.nvim', branch = 'release'}
   use { 'github/copilot.vim' }
+  use 'hashivim/vim-terraform'
 end)
