@@ -16,6 +16,7 @@
   "solargraph.formatting": true,
   "solargraph.autoformat": true,
   "solargraph.diagnostics": true,
+  "solargraph.commandPath": "/Users/ryutaro.mitoda/.rbenv/shims/solargraph"
   "tsserver.formatOnType": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
