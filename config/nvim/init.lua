@@ -39,7 +39,8 @@ require('nvim-treesitter.configs').setup {
     'vim',
     'go',
     'rust',
-    'typescript'
+    'typescript',
+    'yaml'
   },
   indent = {
     enable = true,
@@ -114,10 +115,7 @@ require('lualine').setup {
 require'colorizer'.setup()
 
 -- indent_blankline init --
-require("indent_blankline").setup {
-  show_current_context = true,
-  show_current_context_start = true,
-}
+require("ibl").setup { indent = { highlight = highlight} }
 
 -- scrollbar init --
 require("scrollbar").setup()
