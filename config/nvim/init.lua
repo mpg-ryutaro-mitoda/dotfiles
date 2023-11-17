@@ -10,6 +10,7 @@ vim.opt.hidden = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
+vim.opt.textwidth=0
 
 -- fzf-lua init --
 require'fzf-lua'.setup({
